@@ -122,15 +122,20 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 [[package]]
 name = "ckb-channel"
 version = "0.44.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=85bf46065cc91e75980c9ee82925af77c524964d#85bf46065cc91e75980c9ee82925af77c524964d"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
 dependencies = [
  "crossbeam-channel",
 ]
 
 [[package]]
+name = "ckb-constant"
+version = "0.44.0-pre"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
+
+[[package]]
 name = "ckb-error"
 version = "0.44.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=85bf46065cc91e75980c9ee82925af77c524964d#85bf46065cc91e75980c9ee82925af77c524964d"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
 dependencies = [
  "anyhow",
  "ckb-occupied-capacity",
@@ -141,7 +146,7 @@ dependencies = [
 [[package]]
 name = "ckb-fixed-hash"
 version = "0.44.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=85bf46065cc91e75980c9ee82925af77c524964d#85bf46065cc91e75980c9ee82925af77c524964d"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
 dependencies = [
  "ckb-fixed-hash-core",
  "ckb-fixed-hash-macros",
@@ -150,7 +155,7 @@ dependencies = [
 [[package]]
 name = "ckb-fixed-hash-core"
 version = "0.44.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=85bf46065cc91e75980c9ee82925af77c524964d#85bf46065cc91e75980c9ee82925af77c524964d"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
 dependencies = [
  "faster-hex",
  "serde",
@@ -160,7 +165,7 @@ dependencies = [
 [[package]]
 name = "ckb-fixed-hash-macros"
 version = "0.44.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=85bf46065cc91e75980c9ee82925af77c524964d#85bf46065cc91e75980c9ee82925af77c524964d"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
 dependencies = [
  "ckb-fixed-hash-core",
  "proc-macro2",
@@ -171,7 +176,7 @@ dependencies = [
 [[package]]
 name = "ckb-hash"
 version = "0.44.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=85bf46065cc91e75980c9ee82925af77c524964d#85bf46065cc91e75980c9ee82925af77c524964d"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
 dependencies = [
  "blake2b-ref",
  "blake2b-rs",
@@ -204,8 +209,9 @@ dependencies = [
 [[package]]
 name = "ckb-jsonrpc-types"
 version = "0.44.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=85bf46065cc91e75980c9ee82925af77c524964d#85bf46065cc91e75980c9ee82925af77c524964d"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
 dependencies = [
+ "ckb-constant",
  "ckb-types",
  "faster-hex",
  "serde",
@@ -226,7 +232,7 @@ dependencies = [
 [[package]]
 name = "ckb-occupied-capacity"
 version = "0.44.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=85bf46065cc91e75980c9ee82925af77c524964d#85bf46065cc91e75980c9ee82925af77c524964d"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
 dependencies = [
  "ckb-occupied-capacity-core",
  "ckb-occupied-capacity-macros",
@@ -235,7 +241,7 @@ dependencies = [
 [[package]]
 name = "ckb-occupied-capacity-core"
 version = "0.44.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=85bf46065cc91e75980c9ee82925af77c524964d#85bf46065cc91e75980c9ee82925af77c524964d"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
 dependencies = [
  "serde",
 ]
@@ -243,7 +249,7 @@ dependencies = [
 [[package]]
 name = "ckb-occupied-capacity-macros"
 version = "0.44.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=85bf46065cc91e75980c9ee82925af77c524964d#85bf46065cc91e75980c9ee82925af77c524964d"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
 dependencies = [
  "ckb-occupied-capacity-core",
  "quote",
@@ -253,7 +259,7 @@ dependencies = [
 [[package]]
 name = "ckb-rational"
 version = "0.44.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=85bf46065cc91e75980c9ee82925af77c524964d#85bf46065cc91e75980c9ee82925af77c524964d"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
 dependencies = [
  "numext-fixed-uint",
  "serde",
@@ -273,11 +279,12 @@ dependencies = [
 [[package]]
 name = "ckb-types"
 version = "0.44.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=85bf46065cc91e75980c9ee82925af77c524964d#85bf46065cc91e75980c9ee82925af77c524964d"
+source = "git+https://github.com/nervosnetwork/ckb?rev=acd2f8132f56bc0e29e72f5b680d54ed68200441#acd2f8132f56bc0e29e72f5b680d54ed68200441"
 dependencies = [
  "bit-vec",
  "bytes 1.0.1",
  "ckb-channel",
+ "ckb-constant",
  "ckb-error",
  "ckb-fixed-hash",
  "ckb-hash",
