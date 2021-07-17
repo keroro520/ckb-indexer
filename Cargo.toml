@@ -9,13 +9,13 @@ edition = "2018"
 [dependencies]
 thiserror = "1.0"
 rocksdb = { package = "ckb-rocksdb", version = "=0.15.1" }
-ckb-types = { git = "https://github.com/keroro520/ckb", rev = "ca686142a84a243fce7754c18ceb51a3194a670b" }
-ckb-jsonrpc-types = { git = "https://github.com/keroro520/ckb", rev = "ca686142a84a243fce7754c18ceb51a3194a670b" }
-jsonrpc-core = "17.0"
-jsonrpc-core-client = { version = "17.0", features = ["http", "tls"] }
-jsonrpc-derive = "17.0"
-jsonrpc-http-server = "17.0"
-jsonrpc-server-utils = "17.0"
+ckb-types = { git = "https://github.com/nervosnetwork/ckb", rev = "3e56dbc51bc3de6bccef68b48961dba43b70f26b" }
+ckb-jsonrpc-types = { git = "https://github.com/nervosnetwork/ckb", rev = "3e56dbc51bc3de6bccef68b48961dba43b70f26b" }
+jsonrpc-core = "17.1.0"
+jsonrpc-core-client = { version = "17.1.0", features = ["http", "tls"] }
+jsonrpc-derive = "17.1.0"
+jsonrpc-http-server = "17.1.0"
+jsonrpc-server-utils = "17.1.0"
 futures = "0.3"
 clap = "2.33"
 serde = { version = "1.0", features = ["derive"] }
