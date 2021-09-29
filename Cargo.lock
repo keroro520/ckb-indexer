@@ -122,7 +122,7 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 [[package]]
 name = "ckb-channel"
 version = "0.100.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=3e56dbc51bc3de6bccef68b48961dba43b70f26b#3e56dbc51bc3de6bccef68b48961dba43b70f26b"
+source = "git+https://github.com/nervosnetwork/ckb?rev=bba9f083c42c2df8c87f2e7cea2caadc84afe74f#bba9f083c42c2df8c87f2e7cea2caadc84afe74f"
 dependencies = [
  "crossbeam-channel",
 ]
@@ -130,7 +130,7 @@ dependencies = [
 [[package]]
 name = "ckb-error"
 version = "0.100.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=3e56dbc51bc3de6bccef68b48961dba43b70f26b#3e56dbc51bc3de6bccef68b48961dba43b70f26b"
+source = "git+https://github.com/nervosnetwork/ckb?rev=bba9f083c42c2df8c87f2e7cea2caadc84afe74f#bba9f083c42c2df8c87f2e7cea2caadc84afe74f"
 dependencies = [
  "anyhow",
  "ckb-occupied-capacity",
@@ -141,7 +141,7 @@ dependencies = [
 [[package]]
 name = "ckb-fixed-hash"
 version = "0.100.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=3e56dbc51bc3de6bccef68b48961dba43b70f26b#3e56dbc51bc3de6bccef68b48961dba43b70f26b"
+source = "git+https://github.com/nervosnetwork/ckb?rev=bba9f083c42c2df8c87f2e7cea2caadc84afe74f#bba9f083c42c2df8c87f2e7cea2caadc84afe74f"
 dependencies = [
  "ckb-fixed-hash-core",
  "ckb-fixed-hash-macros",
@@ -150,7 +150,7 @@ dependencies = [
 [[package]]
 name = "ckb-fixed-hash-core"
 version = "0.100.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=3e56dbc51bc3de6bccef68b48961dba43b70f26b#3e56dbc51bc3de6bccef68b48961dba43b70f26b"
+source = "git+https://github.com/nervosnetwork/ckb?rev=bba9f083c42c2df8c87f2e7cea2caadc84afe74f#bba9f083c42c2df8c87f2e7cea2caadc84afe74f"
 dependencies = [
  "faster-hex",
  "serde",
@@ -160,7 +160,7 @@ dependencies = [
 [[package]]
 name = "ckb-fixed-hash-macros"
 version = "0.100.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=3e56dbc51bc3de6bccef68b48961dba43b70f26b#3e56dbc51bc3de6bccef68b48961dba43b70f26b"
+source = "git+https://github.com/nervosnetwork/ckb?rev=bba9f083c42c2df8c87f2e7cea2caadc84afe74f#bba9f083c42c2df8c87f2e7cea2caadc84afe74f"
 dependencies = [
  "ckb-fixed-hash-core",
  "proc-macro2",
@@ -171,7 +171,7 @@ dependencies = [
 [[package]]
 name = "ckb-hash"
 version = "0.100.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=3e56dbc51bc3de6bccef68b48961dba43b70f26b#3e56dbc51bc3de6bccef68b48961dba43b70f26b"
+source = "git+https://github.com/nervosnetwork/ckb?rev=bba9f083c42c2df8c87f2e7cea2caadc84afe74f#bba9f083c42c2df8c87f2e7cea2caadc84afe74f"
 dependencies = [
  "blake2b-ref",
  "blake2b-rs",
@@ -204,7 +204,7 @@ dependencies = [
 [[package]]
 name = "ckb-jsonrpc-types"
 version = "0.100.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=3e56dbc51bc3de6bccef68b48961dba43b70f26b#3e56dbc51bc3de6bccef68b48961dba43b70f26b"
+source = "git+https://github.com/nervosnetwork/ckb?rev=bba9f083c42c2df8c87f2e7cea2caadc84afe74f#bba9f083c42c2df8c87f2e7cea2caadc84afe74f"
 dependencies = [
  "ckb-types",
  "faster-hex",
@@ -226,7 +226,7 @@ dependencies = [
 [[package]]
 name = "ckb-occupied-capacity"
 version = "0.100.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=3e56dbc51bc3de6bccef68b48961dba43b70f26b#3e56dbc51bc3de6bccef68b48961dba43b70f26b"
+source = "git+https://github.com/nervosnetwork/ckb?rev=bba9f083c42c2df8c87f2e7cea2caadc84afe74f#bba9f083c42c2df8c87f2e7cea2caadc84afe74f"
 dependencies = [
  "ckb-occupied-capacity-core",
  "ckb-occupied-capacity-macros",
@@ -235,7 +235,7 @@ dependencies = [
 [[package]]
 name = "ckb-occupied-capacity-core"
 version = "0.100.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=3e56dbc51bc3de6bccef68b48961dba43b70f26b#3e56dbc51bc3de6bccef68b48961dba43b70f26b"
+source = "git+https://github.com/nervosnetwork/ckb?rev=bba9f083c42c2df8c87f2e7cea2caadc84afe74f#bba9f083c42c2df8c87f2e7cea2caadc84afe74f"
 dependencies = [
  "serde",
 ]
@@ -243,7 +243,7 @@ dependencies = [
 [[package]]
 name = "ckb-occupied-capacity-macros"
 version = "0.100.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=3e56dbc51bc3de6bccef68b48961dba43b70f26b#3e56dbc51bc3de6bccef68b48961dba43b70f26b"
+source = "git+https://github.com/nervosnetwork/ckb?rev=bba9f083c42c2df8c87f2e7cea2caadc84afe74f#bba9f083c42c2df8c87f2e7cea2caadc84afe74f"
 dependencies = [
  "ckb-occupied-capacity-core",
  "quote",
@@ -253,7 +253,7 @@ dependencies = [
 [[package]]
 name = "ckb-rational"
 version = "0.100.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=3e56dbc51bc3de6bccef68b48961dba43b70f26b#3e56dbc51bc3de6bccef68b48961dba43b70f26b"
+source = "git+https://github.com/nervosnetwork/ckb?rev=bba9f083c42c2df8c87f2e7cea2caadc84afe74f#bba9f083c42c2df8c87f2e7cea2caadc84afe74f"
 dependencies = [
  "numext-fixed-uint",
  "serde",
@@ -273,7 +273,7 @@ dependencies = [
 [[package]]
 name = "ckb-types"
 version = "0.100.0-pre"
-source = "git+https://github.com/nervosnetwork/ckb?rev=3e56dbc51bc3de6bccef68b48961dba43b70f26b#3e56dbc51bc3de6bccef68b48961dba43b70f26b"
+source = "git+https://github.com/nervosnetwork/ckb?rev=bba9f083c42c2df8c87f2e7cea2caadc84afe74f#bba9f083c42c2df8c87f2e7cea2caadc84afe74f"
 dependencies = [
  "bit-vec",
  "bitflags",
@@ -339,20 +339,21 @@ checksum = "ea221b5284a47e40033bf9b66f35f984ec0ea2931eb03505246cd27a963f981b"
 
 [[package]]
 name = "crossbeam-channel"
-version = "0.3.9"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c8ec7fcd21571dc78f96cc96243cab8d8f035247c3efd16c687be154c3fa9efa"
+checksum = "06ed27e177f16d65f0f0c22a213e17c696ace5dd64b14258b52f9417ccb52db4"
 dependencies = [
+ "cfg-if 1.0.0",
  "crossbeam-utils",
 ]
 
 [[package]]
 name = "crossbeam-utils"
-version = "0.6.6"
+version = "0.8.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "04973fa96e96579258a5091af6003abde64af786b860f18622b82e026cca60e6"
+checksum = "d82cfc11ce7f2c3faef78d8a684447b40d503d9681acebed6cb728d45940c4db"
 dependencies = [
- "cfg-if 0.1.10",
+ "cfg-if 1.0.0",
  "lazy_static",
 ]
 
@@ -975,9 +976,9 @@ dependencies = [
 
 [[package]]
 name = "molecule"
-version = "0.7.1"
+version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c58d1147f4d0d51ce72c56a6099ae5dbfd007b250271bb965f82dd10fca2bf02"
+checksum = "be5f63176422224eadd975789462a96cedaf339cd1009ef92fbdfaad39d35f5f"
 dependencies = [
  "bytes 1.0.1",
  "cfg-if 1.0.0",

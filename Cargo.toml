@@ -9,8 +9,8 @@ edition = "2018"
 [dependencies]
 thiserror = "1.0"
 rocksdb = { package = "ckb-rocksdb", version = "=0.15.1" }
-ckb-types = { git = "https://github.com/nervosnetwork/ckb", rev = "603a811" }
-ckb-jsonrpc-types = { git = "https://github.com/nervosnetwork/ckb", rev = "603a811" }
+ckb-types = { git = "https://github.com/nervosnetwork/ckb", rev = "bba9f083c42c2df8c87f2e7cea2caadc84afe74f" }
+ckb-jsonrpc-types = { git = "https://github.com/nervosnetwork/ckb", rev = "bba9f083c42c2df8c87f2e7cea2caadc84afe74f" }
 jsonrpc-core = "17.1.0"
 jsonrpc-core-client = { version = "17.1.0", features = ["http", "tls"] }
 jsonrpc-derive = "17.1.0"
